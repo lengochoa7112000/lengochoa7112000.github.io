@@ -165,12 +165,17 @@
   <form id="login_form" class="login-primary" novalidate="novalidate" action="/login?auth_method=password_auth&amp;rid=a0820f10-ff94-456c-95c2-96bbed341721" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="-tw8eCbjoT568Dnsbv5OcCF41TSZz8I7Nw6Ofmb-XjEacRTgvGvpy1ansUdjJu0ngqwZAATNAS_VC8ev762fjA" autocomplete="off" />
     <div class="ui-form__section">
 
-        <div class="ui-stack ui-stack--alignment-center ui-stack--spacing-tight changeable-label">
+        <div class="ui-form__group polaris-uplift-input-wrapper">
 
-  <div class="ui-stack-item ui-stack-item--fill changeable-label__text">
 
-      <div class="next-input-wrapper lastpass-hidden" aria-hidden="true"><input value="" type="email" autocomplete="username" size="30" name="account[email]" id="account_email" /></div>
-</div>
+      <div class="next-input-wrapper email-input-wrapper"><label class="next-label" for="account_email">Email</label><input class="next-input email-typo-input" type="email" autocomplete="username" aria-required="true" aria-invalid="false" autofocus="autofocus" aria-describedby="help-ef5e2979f5eb1b2df3bb911b95840e72" size="30" name="account[email]" id="account_email"><p id="help-ef5e2979f5eb1b2df3bb911b95840e72" class="next-input__help-text"><span class="typo-suggestion">
+  Did you mean
+  <button type="button" class="ui-button ui-button--link">
+    <span class="suggested-local"></span>@<span class="suggested-second"></span><span class="suggested-period">.</span><span class="suggested-top"></span>
+  </button>?
+</span>
+</p></div>
+        </div>
     <div class="ui-stack-item changeable-label__link">
         <a href="/lookup/change-email?rid=a0820f10-ff94-456c-95c2-96bbed341721" class="ui-button ui-button--link">Change email</a>
 </div></div>
